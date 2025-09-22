@@ -1,7 +1,7 @@
 {
   "name": "realmath-tools",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -20,7 +20,9 @@
     "router": "^2.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.28.4",
     "@types/react": "~19.1.0",
+    "babel-preset-expo": "^54.0.2",
     "typescript": "~5.9.2"
   },
   "private": true
